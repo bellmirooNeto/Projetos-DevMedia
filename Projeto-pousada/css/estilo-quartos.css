@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+}
+span {
+    color:#1d80c1
+}
+.Topo {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    width: 100%;
+    height: 55px;
+    font-size: 25px;
+    margin: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.Topo-elementos {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+}
+
+.Topo-links {
+    font-size: 17px;
+    width: 300px;
+    text-align: center;
+}
+
+.Topo-links a {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.Principal {
+    background-image: url("../assets/img-fundo.jpg");
+    height: 30vh;
+}
+
+.Quarto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    padding-top: 52px;
+    
+}
+
+.Quarto img {
+    margin-top: 25px;
+    width: 33%;
+    height: 249px;
+    margin-bottom: 35px;
+}
+
+.Lista {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.Lista li {
+    width: 25%;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.Rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 45px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    background-color: rgb(0, 128, 43);
+    color:#fff;
+    width: 100%;
+    height: 100%;
+}
+.Contato {
+    display: flex;
+    border-bottom: 1px solid #000;
+}
+
+.Rodape-contato {
+    display: flex;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 25px;
+    font-size: 15px;
+}
+
+.Rodape-contato img {
+    padding-top: 20px;
+    padding-right: 10px;
+    width: 30px;
+    height: 30px;
+}

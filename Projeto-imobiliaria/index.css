@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    font-family: Tahoma, sans-serif;
+}
+
+header {
+    padding-top: 30px;
+    text-align: center; 
+    padding-bottom: 30px;
+    background-color: #afddfb;
+}
+
+header img {
+    width: 150px;
+}
+
+header p {
+    margin-top: 15px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+header a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #1d1d1d;
+    border-bottom: 2px solid #1d1d1d;
+    margin: 0 10px 10px 0;
+}
+
+div {
+    padding-top: 30px;
+    text-align: center; 
+    padding-bottom: 30px;
+}
+
+p {
+    margin: 10px auto 10px auto;
+    width: 980px;
+    text-align: justify;
+    font-size: 18px;
+    height: 28px;
+}
+
+span {
+    font-weight: bold;
+}
+
+.inicio {
+    margin-top: 50px;
+    padding-top: 30px; 
+    padding-bottom: 30px;
+}
+
+.sobre {
+    padding-top: 30px; 
+    padding-bottom: 50px;
+}
+
+.sobre img{
+    width: 450px;
+}
+
+.sobre h1 {
+    color: #1d1d1d;
+    margin-bottom: 5px;
+}
+
+h2 {
+    color: #1c81c0;
+}
+
+h3 {
+    color: #ffffff;
+    font-size: 28px;
+    line-height: 42px;
+}
+
+.texto-azul {
+    color: #1d80c1;
+    font-weight: bold;
+}
+
+.servicos {
+    color: #ffffff;
+    line-height: 42px;
+    text-align: center;
+    background-color: #1d80c1;
+    font-size: 22px;
+}
+
+.servicos p {
+    text-align: center;
+    width: 700px;
+}
+
+.texto-amarelo {
+    color:#fff81b;
+    font-weight: bold;
+}
+
+.servicos ul {
+    margin-top: 98px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    width: 135px;
+}
+
+.servicos ul li {
+    color: #ffffff;
+    line-height: 42px;
+    text-align: left;
+    font-size: 22px;
+}
+
+.corretores h3 {
+    color: #1d80c1;
+    font-size: 28px;
+    line-height: 42px;
+    padding-bottom: 20px;
+}
+
+.corretores img {
+    width: 450px;
+}
+
+.contato {
+    background-color: #1d80c1;
+}
+
+.contato h3 {
+    padding-bottom: 20px;    
+}
+
+.contato p {
+    color: #ffffff;
+    background-color: #1d1d1d;
+    line-height: 25px;
+    text-align: center;
+    margin-top: 30px;    
+    margin-bottom: 30px;    
+}
+
+.contato ul {
+    list-style: none;
+    margin: 40px auto 40px;
+    width: 210px;
+}
+
+.contato li {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.contato a {
+    background-color: #ffffff;
+    color: #1d80c1;
+    padding: 2px 5px 2px 5px;
+    border-radius: 5px; 
+}

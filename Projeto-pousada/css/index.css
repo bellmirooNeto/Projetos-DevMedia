@@ -1,0 +1,184 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+}
+span {
+    color:#1d80c1
+}
+
+.Topo {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    width: 100%;
+    height: 55px;
+    font-size: 25px;
+    margin: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.Topo-elementos {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+}
+
+.Topo-links {
+    font-size: 17px;
+    width: 300px;
+    text-align: center;
+}
+
+.Topo-links a {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.Secao1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-image: url("../assets/img-fundo.jpg");
+    height:100vh;
+    text-align: center;
+}
+
+.Secao1-1 {
+    background-color: green;
+    opacity: 50%;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    width: 350px;
+    height: 170px;
+    font-size: 20px;
+}
+
+.Secao2 {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Secao2-titulo {
+    margin-bottom: 55px;
+    text-align: center;
+}
+
+.Secao-quartos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Secao-quartos img{
+    width: 300px;
+}
+
+.Quartos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 17px;
+}
+
+.Quartos img {
+    margin-bottom: 20px;
+}
+
+.Quartos a {
+    padding-bottom: 12px;
+    border-bottom: 2px solid green;
+}
+
+.Secao3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.iframe {
+    width: 100vw;
+}
+
+iframe{
+    width: 100%;
+}
+
+.Secao4 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.Detalhes {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70vw;
+    padding-top: 45px;
+}
+
+.Detalhes img {
+    padding-top: 30px;
+    padding-right: 35px;
+    width: 80px;
+    height: 110px;
+}
+
+.Detalhes-quarto {
+   display: flex; 
+   width: 50%;
+   height: 25%;
+   margin-top: 25px;
+}
+
+.Recepcao img {
+    padding-left: 136px;
+}
+
+.Rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 45px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    background-color: rgb(0, 128, 43);
+    color:#fff;
+    width: 100%;
+    height: 100%;
+}
+.Contato {
+    display: flex;
+    border-bottom: 1px solid #000;
+}
+
+.Rodape-contato {
+    display: flex;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 25px;
+    font-size: 15px;
+}
+
+.Rodape-contato img {
+    padding-top: 20px;
+    padding-right: 10px;
+    width: 30px;
+    height: 30px;
+}
